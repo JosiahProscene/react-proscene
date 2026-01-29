@@ -131,3 +131,34 @@ color: var(--textBluish);
         display: flex;
     }
 }
+
+/* Animation for text fade-in */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+/* Responsive video container */
+@media (max-width: 768px) {
+  .video-background-container {
+    height: 60vh;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-background-container {
+    height: 50vh;
+    min-height: 350px;
+  }
+}

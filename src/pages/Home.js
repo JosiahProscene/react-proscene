@@ -9,13 +9,13 @@ import SolutionsLayout from "../components/Solutions.js";
 import DriveGrowth from "../components/DriveGrowth.js";
 import Stats from "../components/StatsSection.js";
 import TestimonialCarousel from "../components/testimonials.js";
-
+import VideoBackground from "../components/VideoBackground.js";
 
 function Home() {
     return (
         <div className="home-container">
         <div>
-        <DriveGrowth/>
+        <VideoBackground/>
         </div>
         <div>
         <Stats/>
