@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import trainingImage from "../components/assets/nera-offices-london-2-1200x847.jpg";
+import trainingImage from "../components/assets/hero.jpg";
 import leftbottomSvg from "../components/assets/leftbottom.svg";
 import FAQ from "./Faq";
 import Footer from '../components/Footer';
@@ -30,7 +30,7 @@ function TrainingAndSupport() {
     feature3: {
       title: "Live 24/7 Support",
       description: "Get real-time assistance with our 24/7 support team, ready to troubleshoot and resolve issues promptly.",
-      image: "https://t3.ftcdn.net/jpg/04/57/11/78/360_F_457117809_CqpzPLXiHCtMkaYdPz1cdJHx0uqtF0mu.jpg",
+      image: "/support.jpg",
     },
     feature4: {
       title: "Routine System Maintenance",
@@ -40,7 +40,7 @@ function TrainingAndSupport() {
     feature5: {
       title: "Comprehensive Staff Training",
       description: "Customized training programs to equip your staff with the knowledge and skills they need to excel.",
-      image: trainingImage,
+      image: "/training.avif",
     },
     feature6: {
       title: "Backup and Recovery Support",

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import homeSvg from "../components/assets/help.webp";
+import homeSvg from "../components/assets/support.jpg";
 import Footer from "../components/Footer";
 
 function Support() {
@@ -35,6 +35,18 @@ function Support() {
         }
     ];
 
+    const openTawkChat = () => {
+        const checkTawk = setInterval(() => {
+            if (window.Tawk_API && typeof window.Tawk_API.maximize === "function") {
+            window.Tawk_API.maximize();
+            window.Tawk_API.setAttributes({
+                message: "Hi, I want to submit a ticket regarding AV support."
+            });
+            clearInterval(checkTawk);
+            }
+        }, 500);
+        };
+
     const supportOptions = [
         {
             icon: "📞",
@@ -49,7 +61,7 @@ function Support() {
             title: "Live Chat Support",
             description: "Connect with our support team instantly through live chat for quick resolutions.",
             cta: "Start Chat",
-            link: "#chat"
+            link: "https://wa.me/254716147610?text=Hello%20Proscene%20Systems,%20I%20need%20assistance%20with%20AV%20solutions."
         },
         {
             icon: "📧",
@@ -63,7 +75,8 @@ function Support() {
             title: "Submit a Ticket",
             description: "Create a support ticket and track the progress of your request.",
             cta: "Open Ticket",
-            link: "#ticket"
+            link: "#ticket",
+            onClick: openTawkChat
         },
         {
             icon: "📖",
@@ -146,7 +159,7 @@ function Support() {
                         <div className="relative">
                             <div className="relative z-10">
                                 <img
-                                    src={homeSvg}
+                                    src="/support.jpg"
                                     alt="Support"
                                     className="w-full h-auto rounded-2xl shadow-2xl"
                                 />
@@ -245,21 +258,26 @@ function Support() {
                                     {option.description}
                                 </p>
                                 <a
-                                    href={option.link}
-                                    onClick={(e) => {
-                                        if (option.link.startsWith('/')) {
-                                            e.preventDefault();
-                                            navigate(option.link);
-                                        }
-                                    }}
-                                    className={`inline-flex items-center font-semibold transition-all group-hover:translate-x-2 ${
-                                        option.highlight ? "text-[#f24b00]" : "text-gray-700 group-hover:text-[#f24b00]"
-                                    }`}
+                                href={option.link || "#"}
+                                target={option.link.startsWith("http") ? "_blank" : "_self"}
+                                rel="noopener noreferrer"
+                                onClick={(e) => {
+                                    if (option.onClick) {
+                                    e.preventDefault(); // prevent default navigation
+                                    option.onClick();   // call Tawk API
+                                    } else if (option.link.startsWith("/")) {
+                                    e.preventDefault();
+                                    navigate(option.link);
+                                    }
+                                }}
+                                className={`inline-flex items-center font-semibold transition-all group-hover:translate-x-2 ${
+                                    option.highlight ? "text-[#f24b00]" : "text-gray-700 group-hover:text-[#f24b00]"
+                                }`}
                                 >
-                                    {option.cta}
-                                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                    </svg>
+                                {option.cta}
+                                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                </svg>
                                 </a>
                             </div>
                         ))}

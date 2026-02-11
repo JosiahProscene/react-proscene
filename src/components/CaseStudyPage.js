@@ -99,7 +99,7 @@ function CaseStudyPage() {
                   alt={caseStudy.title}
                   className="w-full h-auto rounded-2xl shadow-2xl"
                   onError={(e) => {
-                    e.target.src = "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop";
+                    e.target.src = "/DSCF1370_1.jpg";
                   }}
                 />
               </div>
@@ -206,7 +206,7 @@ function CaseStudyPage() {
                 alt={`Gallery ${activeImageIndex + 1}`}
                 className="w-full h-full object-cover"
                 onError={(e) => {
-                  e.target.src = "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop";
+                  e.target.src = "/DSCF1370_1.jpg";
                 }}
               />
             </div>
@@ -227,7 +227,7 @@ function CaseStudyPage() {
                     alt={`Thumbnail ${index + 1}`}
                     className="w-full h-full object-cover"
                     onError={(e) => {
-                      e.target.src = "https://images.unsplash.com/photo-1497366216548-37526070297c?w=300&h=200&fit=crop";
+                      e.target.src = "/DSCF1370_1.jpg";
                     }}
                   />
                 </button>

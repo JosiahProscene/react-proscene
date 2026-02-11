@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import strategyDesign from './assets/brief-1.jpg';
 
 const StrategyDesign = () => {
     const navigate = useNavigate();
@@ -39,7 +40,7 @@ const StrategyDesign = () => {
                 {/* Image */}
                 <div className="order-1 lg:order-2 rounded-xl overflow-hidden shadow-xl mx-auto lg:mx-0 max-w-lg lg:max-w-none">
                     <img
-                        src="https://onediversified.com/hubfs/Section%20Images/By%20Space%20Services/Section_Corporate_StrategyDesign.jpg"
+                        src={strategyDesign}
                         alt="Auditorium"
                         className="w-full h-auto object-cover"
                     />

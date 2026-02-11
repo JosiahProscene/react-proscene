@@ -62,7 +62,7 @@ const AboutPS = () => {
                     <h2 className="text-white font-semibold
                         text-2xl sm:text-3xl md:text-4xl lg:text-5xl
                         drop-shadow-lg">
-                        KICC Auditorium
+                        AV Solutions for Institutions
                     </h2>
                 </div>
 

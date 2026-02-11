@@ -62,6 +62,7 @@ import IPTV from "./components/iptv";
 import Avautomation from "./components/Avautomation";
 import MicrosoftModernSolutions from "./components/microsoftmodernsolutions";
 import Company from "./components/company";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
@@ -132,7 +133,11 @@ function App() {
         <Route path="/company" element={<Company/>} />
         <Route path="*" element={<h1 className="text-center mt-5">404 Not Found</h1>} />
     </Routes>
-    {/* <Footer /> */}
+      {/* <Footer /> */}
+      <>
+        {/* your router / pages */}
+        <WhatsAppButton />
+      </>
     </Router>        
   );
 }

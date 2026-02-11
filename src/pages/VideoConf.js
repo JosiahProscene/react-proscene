@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-// import videoConfImage from "../components/assets/nera-offices-london-2-1200x847.jpg";
+import videoConfImage from "../components/assets/EntranceSignage.jpg";
 // import leftbottomSvg from "../components/assets/leftbottom.svg";
-import leasingImage from "../components/assets/ubs.jpg";
+import leasingImage from "../components/assets/hero.jpg";
 import FAQ from "./Faq";
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
@@ -9,46 +9,51 @@ import supportjpg from "../components/assets/support.jpg";
 import SupportMaintain from "../components/SupportMaintain";
 
 function VideoConferenceRental() {
-  const swipeTexts = [
-    "Upgrade your virtual meetings with our premium equipment.",
-    "Flexible rental plans tailored to your conferencing needs.",
-    "Access the latest video conferencing technology for seamless meetings.",
-  ];
+      const swipeTexts = [
+      "Professional video conferencing systems for meetings, events, and hybrid collaboration.",
+      "Deploy enterprise-grade conferencing solutions without capital investment.",
+      "Reliable, fully supported conferencing technology delivered and configured for you.",
+    ];
 
   const [activeLink, setActiveLink] = useState("feature1");
 
-  const content = {
-    feature1: {
-      title: "Wide Range of Equipment",
-      description: "From construction tools to AV systems, we provide a diverse selection of high-quality equipment for any project.",
-      image: `${process.env.PUBLIC_URL}/Equipment.webp`,
-    },
-    feature2: {
-      title: "Equipment Setup and Configuration",
-      description: "ProScene customizes the setup of your AV equipment to suit your specific needs. Whether it's a university lecture hall or a music festival, our team ensures every detail is perfect for the occasion.",
-      image: supportjpg,
-    },
-    feature3: {
-      title: "Flexible Leasing Plans",
-      description: "Our plans are designed to suit your budget and project timelines, ensuring cost-effectiveness and convenience.",
-      image: `${process.env.PUBLIC_URL}/leasing.jpg`,
-    },
-    feature4: {
-      title: "Regular Maintenance and Testing",
-      description: "Enjoy peace of mind with regular maintenance services included in your leasing agreement.",
-      image: supportjpg,
-    },
-    feature5: {
-      title: "Customized Training for Staff",
-      description: "Our team of experts is available to assist with setup, training, and troubleshooting throughout the lease period.",
-      image: `${process.env.PUBLIC_URL}/support.jpg`,
-    },
-    feature6: {
-      title: "Backup Equipment Availability",
-      description: "ProScene provides on-site backup equipment to ensure uninterrupted service. This is critical for the education sector during hybrid learning sessions or for the events industry where reliability is paramount.",
-      image: leasingImage,
-    },
-  };
+    const content = {
+      feature1: {
+        title: "Enterprise Video Conferencing Equipment",
+        description: "Access professional conferencing hardware including cameras, microphones, speakers, displays, and control systems designed for clear communication, reliable connectivity, and seamless collaboration across any environment.",
+        image: `${process.env.PUBLIC_URL}/Equipment.webp`,
+      },
+
+      feature2: {
+        title: "Professional Setup & Configuration",
+        description: "Our engineers handle installation, calibration, and platform integration to ensure your conferencing system performs flawlessly. We optimize audio, video, and network settings for your specific room, audience, and meeting platform.",
+        image: supportjpg,
+      },
+
+      feature3: {
+        title: "Flexible Rental Packages",
+        description: "Choose daily, weekly, or project-based rental plans tailored to your operational needs. Our flexible packages allow you to scale technology for events, training sessions, executive meetings, or temporary deployments.",
+        image: `${process.env.PUBLIC_URL}/boardroom.jpg`,
+      },
+
+      feature4: {
+        title: "Technical Support & System Assurance",
+        description: "We provide ongoing monitoring, technical support, and performance checks to guarantee reliable operation throughout your rental period, ensuring uninterrupted meetings and presentations.",
+        image: supportjpg,
+      },
+
+      feature5: {
+        title: "User Training & Onboarding",
+        description: "We equip your team with practical training so they can confidently operate conferencing systems, manage meetings, and troubleshoot basic issues—ensuring maximum productivity and smooth collaboration.",
+        image: `${process.env.PUBLIC_URL}/training.avif`,
+      },
+
+      feature6: {
+        title: "Redundancy & Backup Solutions",
+        description: "To eliminate risk during critical sessions, we provide backup equipment and contingency support, ensuring your meetings continue without disruption even in unexpected situations.",
+        image: leasingImage,
+      },
+    };
 
   const navigate = useNavigate();
 
@@ -66,12 +71,12 @@ function VideoConferenceRental() {
   }, [swipeTexts.length]);
 
   const links = [
-    { id: "feature1", label: "AV Equipment" },
-    { id: "feature2", label: "Setup & Config" },
-    { id: "feature3", label: "Rental Plans" },
-    { id: "feature4", label: "Maintenance & Support" },
-    { id: "feature5", label: "Staff Training" },
-    { id: "feature6", label: "Backup Ready" },
+    { id: "feature1", label: "Professional Systems" },
+    { id: "feature2", label: "Design & Setup" },
+    { id: "feature3", label: "Rental Options" },
+    { id: "feature4", label: "Technical Support" },
+    { id: "feature5", label: "Training Services" },
+    { id: "feature6", label: "Backup Solutions" },
   ];
 
   return (
@@ -83,7 +88,7 @@ function VideoConferenceRental() {
             {/* Text Content */}
             <div className="bg-[#f24b00] text-white p-6 sm:p-8 md:p-10 Br flex flex-col justify-center space-y-4 sm:space-y-6 md:space-y-8">
               <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
-                Rent Video Conference Equipment
+                Professional Video Conferencing
               </h1>
               <p className="text-base sm:text-lg md:text-xl mb-4 sm:mb-6">
                 {swipeTexts[currentIndex]}
@@ -104,7 +109,7 @@ function VideoConferenceRental() {
                 <div className="absolute -top-4 sm:-top-8 -right-4 sm:-right-8 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-4 sm:-bottom-8 -left-4 sm:-left-8 w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 bg-gradient-to-br from-[#b062ff] to-[#00d2fb] rounded-full opacity-25 animate-bounce"></div>
                 <img
-                  src={supportjpg}
+                  src={videoConfImage}
                   alt="Video Conference Rental"
                   className="relative z-10 w-full h-auto Br shadow-2xl"
                 />
@@ -145,7 +150,7 @@ function VideoConferenceRental() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#f24b00] mr-2 sm:mr-3 mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span>Complete setup in under 5 minutes</span>
+                  <span>Complete setup in under 30 minutes</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#f24b00] mr-2 sm:mr-3 mt-0.5 sm:mt-1 flex-shrink-0">✓</span>

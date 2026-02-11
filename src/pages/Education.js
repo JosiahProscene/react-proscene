@@ -26,7 +26,7 @@ const EducationFeatures = () => {
           <div className="text-center flex flex-col items-center">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl  mb-6 h-48 w-48 flex items-center justify-center">
               <img 
-                src="/classmart.jpg" 
+                src="/SmartClass.jpg"
                 alt="Smart classrooms"
                 className="w-full h-full object-cover rounded-xl"
               />
@@ -43,7 +43,7 @@ const EducationFeatures = () => {
           <div className="text-center flex flex-col items-center">
             <div className="bg-gradient-to-br from-green-50 to-emerald-100 rounded-2xl  mb-6 h-48 w-48 flex items-center justify-center">
               <img 
-                src="/focusroom.jpg" 
+                src="/training-full.jpg" 
                 alt="Lecture capture and presentation systems"
                 className="w-full h-full object-cover rounded-xl"
               />
@@ -60,7 +60,7 @@ const EducationFeatures = () => {
           <div className="text-center flex flex-col items-center">
             <div className="bg-gradient-to-br from-purple-50 to-violet-100 rounded-2xl mb-6 h-48 w-48 flex items-center justify-center">
               <img 
-                src="/signage.jpg" 
+                src="/orlando-airport1-full.jpg" 
                 alt="Campus-wide signage"
                 className="w-full h-full object-cover rounded-xl"
               />

@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import leftbottomSvg from "../components/assets/leftbottom.svg";
 import collaborationJpg from "../components/assets/ed.jpg";
+import collaboration1Media from "../components/assets/unc-surgical.jpg";
+import supportMedia from "../components/assets/Support1.jpg";
+import cloudMedia from "../components/assets/Boardroom3.jpg";
 import BookDemoToday from "../components/BookDemo";
 import FAQ from "./Faq";
 import Footer from "../components/Footer";
@@ -14,7 +17,7 @@ function CollaborationSolutions() {
         navigate("/bookDemo")
     };
   const swipeTexts = [
-    "Enhance teamwork and streamline communication with tailored collaboration tools.",
+    //"Enhance teamwork and streamline communication with tailored collaboration tools.",
     "Boost productivity by connecting teams with the right technology.",
     "Empower your business with seamless, innovative collaboration solutions.",
   ];
@@ -46,42 +49,42 @@ function CollaborationSolutions() {
       description:
         "Centralize communication, task management, and file sharing on a single platform, tailored to streamline team workflows.",
       image:
-        "https://cdn-ilcbfhj.nitrocdn.com/YPZtsISkluZEqUPtVHEQPXBjhUZGiUtZ/assets/images/optimized/rev-5ebb0a9/recruitmilitary.com/wp-content/uploads/2024/02/AdobeStock_622368032.jpeg",
+        collaboration1Media,
     },
     feature2: {
       title: "Real-Time Synchronization",
       description:
         "Enable teams to work together seamlessly, with updates and notifications synchronized in real time.",
       image:
-        "https://cdn-ilcbfhj.nitrocdn.com/YPZtsISkluZEqUPtVHEQPXBjhUZGiUtZ/assets/images/optimized/rev-5ebb0a9/recruitmilitary.com/wp-content/uploads/2024/02/AdobeStock_622368032.jpeg",
+        supportMedia,
     },
     feature3: {
       title: "Cloud-Based Collaboration Tools",
       description:
         "Access and edit documents, share ideas, and manage projects from anywhere with our secure cloud solutions.",
       image:
-        "https://cdn-ilcbfhj.nitrocdn.com/YPZtsISkluZEqUPtVHEQPXBjhUZGiUtZ/assets/images/optimized/rev-5ebb0a9/recruitmilitary.com/wp-content/uploads/2024/02/AdobeStock_622368032.jpeg",
+        cloudMedia,
     },
     feature4: {
       title: "Secure Communication Channels",
       description:
         "Ensure the safety of sensitive information with encrypted communication and data-sharing solutions.",
       image:
-        "https://cdn-ilcbfhj.nitrocdn.com/YPZtsISkluZEqUPtVHEQPXBjhUZGiUtZ/assets/images/optimized/rev-5ebb0a9/recruitmilitary.com/wp-content/uploads/2024/02/AdobeStock_622368032.jpeg",
+        cloudMedia,
     },
     feature5: {
       title: "Custom Workflows for Teams",
       description:
         "Design tailored workflows that align with your team's unique needs, maximizing efficiency and output.",
       image:
-        "https://cdn-ilcbfhj.nitrocdn.com/YPZtsISkluZEqUPtVHEQPXBjhUZGiUtZ/assets/images/optimized/rev-5ebb0a9/recruitmilitary.com/wp-content/uploads/2024/02/AdobeStock_622368032.jpeg",
+        collaboration1Media,
     },
     feature6: {
       title: "24/7 Support for Seamless Collaboration",
       description:
         "Our dedicated support team is available around the clock to resolve any issues and keep your operations running smoothly.",
       image:
-        "https://cdn-ilcbfhj.nitrocdn.com/YPZtsISkluZEqUPtVHEQPXBjhUZGiUtZ/assets/images/optimized/rev-5ebb0a9/recruitmilitary.com/wp-content/uploads/2024/02/AdobeStock_622368032.jpeg",
+        supportMedia,
     },
   };
 

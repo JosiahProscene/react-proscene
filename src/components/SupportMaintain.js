@@ -1,5 +1,5 @@
 import React from 'react';
-import sup from './assets/nera-offices-london-2-1200x847.jpg';
+import sup from './assets/Support1.jpg';
 
 const SupportMaintain = () => {
   return (

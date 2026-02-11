@@ -142,7 +142,7 @@ function Company() {
                   Message from Director
                 </div>
                 <blockquote className="text-gray-700 text-base md:text-lg leading-relaxed mb-6">
-                  "For over 14 years, Proscene Systems Limited has been dedicated to delivering exceptional quality 
+                  "Since 2015, Proscene Systems Limited has been dedicated to delivering exceptional quality 
                   and unparalleled service in innovative audio-visual solutions, driven by a passion for technology and excellence."
                 </blockquote>
                 <p className="text-gray-600 leading-relaxed text-sm md:text-base">

@@ -24,7 +24,7 @@ const HealthcareFeatures = () => {
           <div className="text-center flex flex-col items-center">
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl mb-6 h-48 w-48 flex items-center justify-center">
               <img 
-                src="/boardroom.jpg" 
+                src="/uncw-9.jpg"
                 alt="Conference and simulation rooms"
                 className="w-full h-full object-cover rounded-xl"
               />
@@ -41,7 +41,7 @@ const HealthcareFeatures = () => {
           <div className="text-center flex flex-col items-center">
             <div className="bg-gradient-to-br from-green-50 to-emerald-100 rounded-2xl mb-6 h-48 w-48 flex items-center justify-center">
               <img 
-                src="/signage.jpg" 
+                src="/tru_nph-lg.jpg" 
                 alt="Digital signage for patient communications"
                 className="w-full h-full object-cover rounded-xl"
               />
@@ -58,7 +58,7 @@ const HealthcareFeatures = () => {
           <div className="text-center flex flex-col items-center">
             <div className="bg-gradient-to-br from-purple-50 to-violet-100 rounded-2xl mb-6 h-48 w-48 flex items-center justify-center">
               <img 
-                src="./focusroom.jpg" 
+                src="/unc-surgical.jpg"
                 alt="Staff training centers"
                 className="w-full h-full object-cover rounded-xl"
               />
@@ -89,7 +89,7 @@ const HealthcareFeatures = () => {
               <div className="text-center">
                 <div className="flex justify-center mb-6">
                   <img 
-                    src="/Medical.jpg" 
+                    src="/icom-2.jpg"
                     alt="Medical collaboration features"
                     className="w-64 h-48 object-cover rounded-xl"
                   />
@@ -117,7 +117,7 @@ const HealthcareFeatures = () => {
               <div className="text-center">
                 <div className="flex justify-center mb-6">
                   <img 
-                    src="/medicaltablet.jpg" 
+                    src="/medicaltablet.jpg"
                     alt="Healthcare communication systems"
                     className="w-64 h-48 object-cover rounded-xl"
                   />

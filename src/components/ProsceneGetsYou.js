@@ -2,16 +2,17 @@ import React from "react";
 import avaya from './assets/avaya.jpg';
 import barco from './assets/barco.jpg';
 import creston from './assets/creston.jpg';
+import logo from './assets/logo.png';
 
 function ProsceneGetYou() {
 
     const features = [
-  { image: avaya, text: 'Robust, feature-rich, experienced AV installation and integration.',},
-  { image: barco, text: 'Telemedicine, collaboration, MDT, AV solutions.',},
-  { image: creston, text: 'Collaborative, durable, vibrant display solutions.',},
-  { image: avaya, text: 'Interactive learning, collaboration, and technology accessibility'},
-  { image: avaya, text: 'Flexible and modular legal collaboration software.', },
-  { image: avaya, text: 'Expert audio-visual solutions, innovative efficiency.',},
+  { image: logo, text: 'Robust, feature-rich, experienced AV installation and integration.',},
+  { image: logo, text: 'Telemedicine, collaboration, MDT, AV solutions.',},
+  { image: logo, text: 'Collaborative, durable, vibrant display solutions.',},
+  { image: logo, text: 'Interactive learning, collaboration, and technology accessibility'},
+  { image: logo, text: 'Flexible and modular legal collaboration software.', },
+  { image: logo, text: 'Expert audio-visual solutions, innovative efficiency.',},
 ];
 
 const FeatureCard = ({ image, text,}) => (

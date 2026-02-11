@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import leasingImage from "../components/assets/ubs.jpg";
+import leasingImage from "../components/assets/hero.jpg";
 // import leftbottomSvg from "../components/assets/leftbottom.svg";
 import FAQ from "./Faq";
 import Footer from '../components/Footer';
@@ -18,33 +18,38 @@ function Leasing() {
 
   const content = {
     feature1: {
-      title: "Wide Range of Equipment",
-      description: "From construction tools to AV systems, we provide a diverse selection of high-quality equipment for any project.",
+      title: "Professional AV Equipment Portfolio",
+      description: "From conferencing and collaboration systems to large-venue audio, display, and control technologies, Proscene provides enterprise-grade equipment tailored to your project requirements and performance standards.",
       image: `${process.env.PUBLIC_URL}/Equipment.webp`,
     },
+
     feature2: {
-      title: "Equipment Setup and Configuration",
-      description: "ProScene customizes the setup of your AV equipment to suit your specific needs. Whether it's a university lecture hall or a music festival, our team ensures every detail is perfect for the occasion.",
+      title: "System Design, Setup & Configuration",
+      description: "Proscene engineers and configures each solution to match your environment, use-case, and operational goals. Whether it’s a boardroom, lecture hall, control room, or event space, we ensure optimal performance, usability, and reliability.",
       image: supportjpg,
     },
+
     feature3: {
-      title: "Flexible Leasing Plans",
-      description: "Our plans are designed to suit your budget and project timelines, ensuring cost-effectiveness and convenience.",
-      image: `${process.env.PUBLIC_URL}/leasing.jpg`,
+      title: "Flexible Leasing & Financing Options",
+      description: "Our leasing plans are structured to align with your budget cycles, project timelines, and technology refresh needs—giving you access to advanced AV solutions without large upfront capital investment.",
+      image: `${process.env.PUBLIC_URL}/Microsoft4.jpg`,
     },
+
     feature4: {
-      title: "Regular Maintenance and Testing",
-      description: "Enjoy peace of mind with regular maintenance services included in your leasing agreement.",
+      title: "Preventive Maintenance & System Optimization",
+      description: "We provide scheduled maintenance, diagnostics, and performance checks to ensure your systems remain reliable, efficient, and fully operational throughout their lifecycle.",
       image: supportjpg,
     },
+
     feature5: {
-      title: "Customized Training for Staff",
-      description: "Our team of experts is available to assist with setup, training, and troubleshooting throughout the lease period.",
-      image: `${process.env.PUBLIC_URL}/support.jpg`,
+      title: "User Training & Technical Enablement",
+      description: "Our specialists deliver tailored training sessions to ensure your teams can confidently operate, manage, and troubleshoot your AV systems, maximizing adoption and long-term value.",
+      image: `${process.env.PUBLIC_URL}/training.avif`,
     },
+
     feature6: {
-      title: "Backup Equipment Availability",
-      description: "ProScene provides on-site backup equipment to ensure uninterrupted service. This is critical for the education sector during hybrid learning sessions or for the events industry where reliability is paramount.",
+      title: "Redundancy & Backup Solutions",
+      description: "Proscene offers backup equipment and contingency support to ensure business continuity during critical operations, live events, and hybrid sessions where uninterrupted performance is essential.",
       image: leasingImage,
     },
   };
@@ -64,14 +69,14 @@ function Leasing() {
     return () => clearInterval(interval);
   }, [swipeTexts.length]);
 
-  const links = [
-    { id: "feature1", label: "On-Site Tech" },
-    { id: "feature2", label: "Setup & Config" },
-    { id: "feature3", label: "Live Support" },
-    { id: "feature4", label: "Routine Checks" },
-    { id: "feature5", label: "Staff Training" },
-    { id: "feature6", label: "Backup Ready" },
-  ];
+      const links = [
+      { id: "feature1", label: "AV Equipment" },
+      { id: "feature2", label: "System Setup" },
+      { id: "feature3", label: "Leasing Plans" },
+      { id: "feature4", label: "Maintenance" },
+      { id: "feature5", label: "User Training" },
+      { id: "feature6", label: "Backup Systems" },
+    ];
 
   return (
     <div>

@@ -5,11 +5,12 @@ import FAQ from "./Faq";
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
 import supportjpg from "../components/assets/support.jpg";
+import training2Image from "../components/assets/Mintenance.jpg";
 import SupportMaintain from "../components/SupportMaintain";
 
 function EquipmentRepair() {
   const swipeTexts = [
-    "Ensure your equipment is running at its best with our repair services.",
+    "We ensure your equipment is running at its best.",
     "Quick and reliable repair solutions for any issue.",
     "Maximize equipment longevity with professional repairs.",
   ];
@@ -30,7 +31,7 @@ function EquipmentRepair() {
     feature3: {
       title: "Skilled Technicians",
       description: "Our team consists of highly trained technicians capable of handling a wide range of equipment repairs, ensuring top-quality service.",
-      image: "https://t3.ftcdn.net/jpg/04/57/11/78/360_F_457117809_CqpzPLXiHCtMkaYdPz1cdJHx0uqtF0mu.jpg",
+      image: training2Image,
     },
     feature4: {
       title: "Genuine Parts Replacement",

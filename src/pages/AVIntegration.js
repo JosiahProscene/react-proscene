@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react";
 import leftbottomSvg from "../components/assets/leftbottom.svg";
 import digitalMediaJpg from "../components/assets/itau-private-bank-offices-bogota-6-1200x800.jpg";
+import avSystemMedia from "../components/assets/Boardroom2.jpg";
+import installationMedia from "../components/assets/unc-surgical04.jpg";
+import customeMedia from "../components/assets/itau-private-bank-offices-bogota-6-1200x800.jpg";
+import supportMedia from "../components/assets/Automationsolutions.jpg";
+import smartHomeMedia from "../components/assets/parklane-hero.jpg";
+import conferenceMedia from "../components/assets/unc-surgical04.jpg";
 import BookDemoToday from "../components/BookDemo";
 import FAQ from "./Faq";
 import Footer from "../components/Footer";
@@ -47,42 +53,42 @@ function AVIntegrations() {
       description:
         "We create tailored AV system designs to meet your specific needs, from residential to commercial applications.",
       image:
-        digitalMediaJpg,
+        avSystemMedia,
     },
     feature2: {
       title: "Installation Services",
       description:
         "Our expert team ensures seamless installation of AV systems for a hassle-free experience.",
       image:
-        digitalMediaJpg,
+        installationMedia,
     },
     feature3: {
       title: "Custom Solutions",
       description:
         "We offer custom AV solutions to enhance your experience, from integrated home theaters to corporate setups.",
       image:
-        digitalMediaJpg,
+        customeMedia,
     },
     feature4: {
       title: "Support & Maintenance",
       description:
         "Our ongoing support and maintenance ensure that your AV systems are always up and running smoothly.",
       image:
-        digitalMediaJpg,
+        supportMedia,
     },
     feature5: {
       title: "Smart Home Integration",
       description:
         "Integrate your AV systems with smart home technology for a fully connected and automated environment.",
       image:
-        digitalMediaJpg,
+        smartHomeMedia,
     },
     feature6: {
       title: "Conference Room Solutions",
       description:
         "We provide professional AV solutions for conference rooms, ensuring high-quality presentations and meetings.",
       image:
-        digitalMediaJpg,
+        conferenceMedia,
     },
   };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import ed from './assets/ed.jpg';
+import ed from './assets/london-school-of-economics.jpg';
 import { useNavigate } from "react-router-dom";
 
 const AboutEd = () => {
@@ -50,7 +50,7 @@ const AboutEd = () => {
                     <h2 className="text-white font-semibold
                         text-2xl sm:text-3xl md:text-4xl lg:text-5xl
                         drop-shadow-lg">
-                        University Graduation Squares
+                        Educational Spaces
                     </h2>
                 </div>
 

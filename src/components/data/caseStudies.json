@@ -7,7 +7,7 @@
       "industry": "Education",
       "location": "Nairobi, Kenya",
       "projectDate": "2024",
-      "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+      "heroImage": "/Strathmorelecturehalls.jpg",
       "challenge": "Strathmore University sought to modernize its lecture halls and digital learning environments to support hybrid education and seamless collaboration. The goal was to enhance the student learning experience through technology-driven classrooms that could be centrally managed while maintaining academic excellence and sustainability.",
       "solution": "Proscene implemented an AV-over-IP infrastructure across lecture halls and innovation hubs. The solution integrated wireless presentation systems, professional video conferencing tools, and centralized control panels for easy classroom management. The system supports real-time lectures, remote participation, and cloud-based learning applications.",
       "results": [
@@ -48,118 +48,119 @@
         "position": "Deputy Vice Chancellor, Strathmore University"
       },
       "gallery": [
-        "https://images.unsplash.com/photo-1606761568499-6d2451b23c55",
+        "/Strathmorelecturehalls.jpg",
         "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
         "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b",
         "https://images.unsplash.com/photo-1596495577886-d920f1fb7238"
       ]
     },
     {
-      "id": "safaricom-headquarters",
-      "title": "Safaricom Headquarters",
-      "subtitle": "Driving Collaboration and Innovation Through Smart Workplace Solutions",
-      "industry": "Technology",
+      "id": "KFCB",
+      "title": "Kenya Film Classification Board (KFCB)",
+      "subtitle": "Enabling Nationwide Film Awareness Through a Mobile Cinema Solution",
+      "industry": "Entertainment & Media",
       "location": "Nairobi, Kenya",
-      "projectDate": "2024",
-      "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-      "challenge": "Safaricom needed to enhance their collaborative workspaces across their headquarters and regional offices. The company required advanced conferencing systems to support hybrid work, data-driven room utilization, and consistent technology standards across 100+ spaces.",
-      "solution": "Proscene delivered a unified workplace technology ecosystem integrating one-touch conferencing, AI-driven cameras, and analytics dashboards. The new solution standardizes meeting experiences across all Safaricom offices, ensuring seamless connectivity between local teams and international partners.",
+      "projectDate": "2021",
+      "heroImage": "/KFCB5.jpg",
+      "challenge": "The Kenya Film Classification Board required an innovative way to extend film awareness, classification campaigns, and public education beyond fixed cinema locations. The challenge was to design a fully mobile, high-quality cinema system capable of delivering consistent audio-visual experiences across diverse environments while remaining reliable, secure, and easy to deploy.",
+      "solution": "Proscene Systems designed and delivered a rigid truck fitted with a custom-built mobile cinema container, fully equipped with professional projection and sound systems. The solution enabled KFCB to conduct film screenings, workshops, and outreach events nationwide. The system was engineered for mobility, durability, and immersive viewing, ensuring consistent performance regardless of location.",
       "results": [
-        { "metric": "100+", "description": "Rooms Equipped" },
-        { "metric": "90%", "description": "User Satisfaction" },
-        { "metric": "65%", "description": "Increase in Meeting Efficiency" },
-        { "metric": "80%", "description": "Reduction in IT Tickets" }
+        { "metric": "1", "description": "Fully Integrated Mobile Cinema Unit" },
+        { "metric": "Nationwide", "description": "Outreach Capability Enabled" },
+        { "metric": "High", "description": "Audio & Visual Clarity Achieved" },
+        { "metric": "Reduced", "description": "Setup and Deployment Time" }
       ],
       "keyFeatures": [
         {
-          "title": "AI-Powered Cameras",
-          "description": "Automatic participant tracking and intelligent framing for immersive video meetings."
+          "title": "Custom Mobile Cinema Container",
+          "description": "Purpose-built container integrated onto a rigid truck for safe transport and rapid deployment."
         },
         {
-          "title": "One-Touch Conferencing",
-          "description": "Instantly join Teams, Zoom, or WebEx meetings from any meeting room."
+          "title": "Professional Projection System",
+          "description": "High-brightness projection delivering clear and immersive visuals in varied environments."
         },
         {
-          "title": "Real-Time Analytics",
-          "description": "Monitor workspace utilization and technology performance to improve efficiency."
+          "title": "Cinema-Grade Audio System",
+          "description": "High-performance sound reinforcement designed for clarity and audience engagement."
         },
         {
-          "title": "Wireless Collaboration",
-          "description": "Secure, cable-free content sharing across all connected devices."
+          "title": "Ruggedized AV Integration",
+          "description": "Vibration-resistant mounting and secure installations optimized for mobile operation."
         }
       ],
       "technologies": [
-        "AI-Tracking Cameras",
-        "Beamforming Microphones",
-        "Room Scheduling Panels",
-        "Cloud Management Systems",
-        "Wireless Presentation",
-        "Environmental Sensors"
+        "Cinema Projection Systems",
+        "Professional Sound Reinforcement",
+        "Custom AV Mounting Solutions",
+        "Mobile Power Integration",
+        "Acoustic Optimization"
       ],
       "testimonial": {
-        "quote": "This upgrade has transformed how our teams connect and innovate. The seamless video experience has strengthened collaboration across departments and regions.",
-        "author": "Head of IT",
-        "position": "Chairman, Safaricom PLC"
+        "quote": "The mobile cinema solution has significantly enhanced our outreach efforts. The quality of sound and visuals allows us to engage audiences effectively wherever we go.",
+        "author": "Project Representative",
+        "position": "Kenya Film Classification Board"
       },
       "gallery": [
-        "https://images.unsplash.com/photo-1596496050760-3c8f8c5a3c7f",
-        "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
-        "https://images.unsplash.com/photo-1587613865763-4b8b0b87e3d0",
-        "https://images.unsplash.com/photo-1553877522-43269d4ea984"
+        "/KFCB7.jpg",
+        "/KFCB4.jpg",
+        "/KFCB8.jpg",
+        "/KFCB6.jpg"
       ]
     },
     {
-      "id": "boma-hotels",
-      "title": "Boma Hotels",
-      "subtitle": "Enhancing Guest Experience Through Smart Hospitality Solutions",
-      "industry": "Hospitality",
+      "id": "MICROSOFT-KE",
+      "title": "Microsoft Kenya",
+      "subtitle": "Delivering Scalable, Enterprise-Grade Collaboration Spaces at Microsoft ADC",
+      "industry": "Technology",
       "location": "Nairobi, Kenya",
-      "projectDate": "2023",
-      "heroImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
-      "challenge": "Boma Hotels wanted to upgrade guest experience by introducing interactive entertainment systems, smart room control, and digital conference facilities across its properties. The goal was to combine luxury and technology for both business and leisure guests.",
-      "solution": "Proscene implemented an integrated hospitality AV system featuring smart TVs, in-room tablets, and digital signage across public areas. Conference halls were upgraded with HD conferencing systems and intuitive touch control panels to enhance event hosting.",
+      "projectDate": "2020",
+      "heroImage": "/DSCF1451_1.jpg",
+      "challenge": "Microsoft Kenya required a standardized, reliable, and high-performance Audio Visual and teleconferencing environment across multiple floors within its Africa Development Centre (ADC). The challenge was to equip more than 55 meeting, collaboration, and training rooms with consistent user experiences, seamless Microsoft Teams integration, and enterprise-grade reliability—while minimizing downtime and ensuring global Microsoft standards were met.",
+      "solution": "Proscene Systems supplied, installed, configured, tested, and commissioned Audio Visual and teleconferencing systems across the 7th to 11th floors at Dunhill Towers. The deployment included fully integrated meeting room solutions designed for Microsoft Teams collaboration, supported by professional audio, video, and control systems. Comprehensive user training was provided to ensure high adoption and consistent system usage across all rooms.",
       "results": [
-        { "metric": "250+", "description": "Smart Rooms Deployed" },
-        { "metric": "40%", "description": "Increase in Guest Satisfaction" },
-        { "metric": "30%", "description": "Energy Savings" },
-        { "metric": "95%", "description": "Conference Facility Utilization" }
+        { "metric": "55+", "description": "Meeting & Collaboration Rooms Equipped" },
+        { "metric": "5", "description": "Floors Fully Integrated" },
+        { "metric": "Enterprise", "description": "Standardized User Experience Achieved" },
+        { "metric": "High", "description": "System Adoption and Reliability" }
       ],
       "keyFeatures": [
         {
-          "title": "Smart Room Controls",
-          "description": "Guests can manage lighting, temperature, and entertainment through in-room tablets."
+          "title": "Microsoft Teams Rooms Integration",
+          "description": "Native Teams-enabled meeting spaces delivering a consistent collaboration experience."
         },
         {
-          "title": "Digital Conference Solutions",
-          "description": "Fully equipped meeting rooms with HD video conferencing and wireless presentation support."
+          "title": "Scalable Room Designs",
+          "description": "Standardized AV configurations adapted across multiple room sizes and use cases."
         },
         {
-          "title": "Interactive Entertainment",
-          "description": "Guests enjoy HD streaming, hotel services, and virtual concierge features directly from smart TVs."
+          "title": "Professional Audio & Video",
+          "description": "High-quality microphones, cameras, and displays optimized for clarity and reliability."
         },
         {
-          "title": "Energy Management",
-          "description": "Smart systems automatically adjust lighting and climate to reduce energy usage."
+          "title": "User Training & Enablement",
+          "description": "Hands-on training sessions to ensure confident usage and fast meeting start times."
         }
       ],
       "technologies": [
-        "Smart TVs",
-        "In-Room Tablets",
-        "HD Conferencing Systems",
-        "Digital Signage",
-        "AV-over-IP Infrastructure",
-        "Energy Management Systems"
+        "Microsoft Teams Rooms",
+        "Professional Video Conferencing Cameras",
+        "All-in-One Video Conferencing Systems",
+        "Beamforming Microphones",
+        "Enterprise Displays",
+        "AV Control Systems",
+        "Room Booking Systems",
+        "Structured AV Cabling"
       ],
       "testimonial": {
-        "quote": "Our guests love the personalized experience. From smart controls to immersive conferences, the upgrade has elevated Boma Hotels to new standards of comfort and innovation.",
-        "author": "Maryanne Nderitu",
-        "position": "General Manager, Boma Hotels"
+        "quote": "Proscene delivered a consistent and reliable collaboration experience across our meeting spaces. The systems integrate seamlessly with Microsoft Teams and support the way our teams work every day.",
+        "author": "IT Representative",
+        "position": "Microsoft Kenya"
       },
       "gallery": [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
-        "https://images.unsplash.com/photo-1501117716987-c8e2a9cefc6f",
-        "https://images.unsplash.com/photo-1590490359683-952f8fae4a5f"
+        "/Microsoft1.jpg",
+        "/Microsoft2.jpg",
+        "/Microsoft3.jpg",
+        "/Microsoft4.jpg"
       ]
     },
     {
@@ -169,7 +170,7 @@
       "industry": "Financial Services",
       "location": "Nairobi, Kenya",
       "projectDate": "2024",
-      "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczN6DpymCbISDHowe3TdJ1M5pkuyT006G65D-p0E5siVqp1ku47Z_sbZL-6BSxdFfylHH6FXKscUpoYhmWAGbCQAr7koWkiAna7GuaXoOfojW6-aAo9uBSw4jFmFo5HzdoncxudZPQ2_RwC-7zFmsDzM=w1371-h914-s-no?authuser=0",
+      "heroImage": "/DSCF1355_1.jpg",
       "challenge": "SBM Bank's rapid expansion required modernized boardroom and meeting technology to support hybrid collaboration, executive decision-making, and digital transformation goals. Outdated systems limited productivity and international coordination.",
       "solution": "Proscene transformed SBM’s executive spaces with integrated video conferencing, beamforming microphones, PTZ cameras, and wireless presentation systems. Crestron touch panels now offer one-touch control for lighting, conferencing, and scheduling — all integrated with Google Workspace and Teams.",
       "results": [
@@ -197,7 +198,7 @@
         }
       ],
       "technologies": [
-        "Large-Format LED Displays",
+        "65 Inch Commercial Displays",
         "PTZ Cameras",
         "Beamforming Microphones",
         "Wireless Presentation Units",
@@ -210,10 +211,123 @@
         "position": "SBM Bank Kenya"
       },
       "gallery": [
-        "https://lh3.googleusercontent.com/pw/AP1GczOqfJCWZxmdKLXQQx3EUDK2GHFo0WltpsJd0s0Cm6_wt-CaTBaoHl4ECt5fm3CvUhe34lSLMGHnPCwjerS4obG37o7fUg4P9mTgKGvhtb_hRl1V1HtAOaFMOWs5_9czjUr55Dtd6XMnbs4UwxY_e7CF=w1371-h914-s-no?authuser=0",
-        "https://lh3.googleusercontent.com/pw/AP1GczN6DpymCbISDHowe3TdJ1M5pkuyT006G65D-p0E5siVqp1ku47Z_sbZL-6BSxdFfylHH6FXKscUpoYhmWAGbCQAr7koWkiAna7GuaXoOfojW6-aAo9uBSw4jFmFo5HzdoncxudZPQ2_RwC-7zFmsDzM=w1371-h914-s-no?authuser=0",
-        "https://lh3.googleusercontent.com/pw/AP1GczOza81HXsmqI3K4JtCaTZbHEUJVY4UvdQKJEYyI9nUqDT69rcjQ2RfLi9a5XH4JxQHWeNk_sDgzhJ9hFogSKs4PX8h1dJ3_Do1PZbkTpu9d6xfchKIdC9dR4J3sN8w1ueZxssP0XKy1SzKWehnV1dSw=w1371-h914-s-no?authuser=0",
-        "https://lh3.googleusercontent.com/pw/AP1GczN6DpymCbISDHowe3TdJ1M5pkuyT006G65D-p0E5siVqp1ku47Z_sbZL-6BSxdFfylHH6FXKscUpoYhmWAGbCQAr7koWkiAna7GuaXoOfojW6-aAo9uBSw4jFmFo5HzdoncxudZPQ2_RwC-7zFmsDzM=w1371-h914-s-no?authuser=0"
+        "/DSCF1400_1.jpg",
+        "/DSCF1360_1.jpg",
+        "/DSCF1362_1.jpg",
+        "/DSCF1366_1.jpg",
+        "/DSCF1394_1.jpg",
+        "/DSCF1394_2.jpg",
+        "/DSCF1370_1.jpg"
+      ]
+    },
+    {
+      "id": "hhm-kenya",
+      "title": "Hamilton Harrison & Mathews (HHM) Kenya",
+      "subtitle": "Boardroom & Collaboration Upgrade for Digital Transformation",
+      "industry": "Legal Services",
+      "location": "Nairobi, Kenya",
+      "projectDate": "2024",
+      "heroImage": "/DSCF1533.jpg",
+      "challenge": "HHM's rapid expansion required modernized boardroom and meeting technology to support hybrid collaboration, executive decision-making, and digital transformation goals. Outdated systems limited productivity and international coordination.",
+      "solution": "Proscene transformed HHM’s executive spaces with integrated video conferencing, beamforming microphones, PTZ cameras, and wireless presentation systems. Crestron touch panels now offer one-touch control for lighting, conferencing, and scheduling — all integrated with Google Workspace and Teams.",
+      "results": [
+        { "metric": "100%", "description": "Meeting Room Uptime" },
+        { "metric": "75%", "description": "Reduction in Setup Time" },
+        { "metric": "90%", "description": "Executive Satisfaction Rate" },
+        { "metric": "3x", "description": "Increase in Hybrid Meetings" }
+      ],
+      "keyFeatures": [
+        {
+          "title": "Effortless Hybrid Collaboration",
+          "description": "Executives now engage with remote stakeholders through seamless, high-quality video and audio sessions."
+        },
+        {
+          "title": "One-Touch Meeting Control",
+          "description": "Crestron touch panels provide simple, unified control of AV systems, lighting, and scheduling."
+        },
+        {
+          "title": "Wireless Presentation",
+          "description": "Cable-free screen sharing from any device enhances flexibility and professionalism."
+        },
+        {
+          "title": "Secure, Scalable Infrastructure",
+          "description": "AV-over-IP systems designed to meet banking security standards and scalability needs."
+        }
+      ],
+      "technologies": [
+        "75 Inch Commercial Displays",
+        "PTZ Cameras",
+        "Avaya Video Conferencing Systems",
+        "Beamforming Microphones",
+        "Wireless Presentation Units",
+        "Yealink Control Panels",
+        "Room Scheduling Panels",
+        "Zoom & Teams Integration"
+      ],
+      "testimonial": {
+        "quote": "Our collaboration spaces are now world-class. Meetings start instantly, and connectivity issues are a thing of the past.",
+        "author": "Head of IT",
+        "position": "Hamilton Harrison & Mathews (HHM) Kenya"
+      },
+      "gallery": [
+        "/DSCF1415_1.jpg",
+        "/DSCF1519.jpg",
+        "/DSCF1423_1.jpg",
+        "/DSCF1451_1.jpg"
+        
+      ]
+    },
+    {
+      "id": "WATOTO-CHURCH",
+      "title": "Watoto Church",
+      "subtitle": "Delivering Clear, Powerful Audio for Worship and Live Ministry",
+      "industry": "Religious Organization",
+      "location": "Kampala, Uganda",
+      "projectDate": "2024",
+      "heroImage": "/auditoriums_hero.jpg",
+      "challenge": "Watoto Church required a reliable, high-quality audio solution capable of delivering clear speech and impactful music for live worship services, sermons, and special events. The system needed to provide consistent coverage, intelligibility, and musical accuracy within a large worship environment while supporting the dynamic nature of live ministry.",
+      "solution": "Proscene Systems supplied professional-grade audio equipment from RCF and QSC, carefully selected to meet the acoustic and performance requirements of the church. The solution ensured balanced sound coverage, clarity for spoken word, and powerful reinforcement for live music, enhancing the overall worship experience for the congregation.",
+      "results": [
+        { "metric": "Improved", "description": "Speech Intelligibility Across the Sanctuary" },
+        { "metric": "Enhanced", "description": "Live Music Clarity and Impact" },
+        { "metric": "Reliable", "description": "System Performance During Services" },
+        { "metric": "High", "description": "User Satisfaction from Technical Team" }
+      ],
+      "keyFeatures": [
+        {
+          "title": "RCF Loudspeaker Systems",
+          "description": "High-performance speakers delivering consistent coverage and natural sound reproduction."
+        },
+        {
+          "title": "QSC Amplification & Processing",
+          "description": "Reliable power and signal processing optimized for live worship environments."
+        },
+        {
+          "title": "Optimized System Design",
+          "description": "Audio components selected to suit the size, acoustics, and use-case of the sanctuary."
+        },
+        {
+          "title": "Future-Ready Infrastructure",
+          "description": "Scalable audio foundation capable of supporting future system expansion."
+        }
+      ],
+      "technologies": [
+        "RCF Professional Loudspeakers",
+        "QSC Amplifiers",
+        "Digital Audio Signal Processing",
+        "Professional Audio Cabling",
+        "Live Sound Reinforcement"
+      ],
+      "testimonial": {
+        "quote": "The sound quality and clarity have significantly improved our worship experience. The system delivers consistent performance and supports both spoken word and live music beautifully.",
+        "author": "Technical Team Representative",
+        "position": "Watoto Church"
+      },
+      "gallery": [
+        "/HDL-30-A-idela-flyable.jpg",
+        "/00_RDShape.png",
+        "/000_HDL-30-A-left_gallery.png",
+        "/000-RDNet-left_gallery-4surface-measures.png"
       ]
     }
   ]

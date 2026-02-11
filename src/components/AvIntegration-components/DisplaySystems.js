@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import leftbottomSvg from "../assets/leftbottom.svg";
 import digitalMediaJpg from "../assets/itau-private-bank-offices-bogota-6-1200x800.jpg";
+import videoWallsJpg from "../assets/bigscreen.jpg";
+import formatDisplaysJpg from "../assets/LargeScreen.jpg";
+import projectionSystemsJpg from "../assets/ProjectionScreen.jpg";
 import BookDemo from "../../pages/BookDemoPage";
 import Footer from "../Footer";
 import { useNavigate } from "react-router-dom";
@@ -21,21 +24,21 @@ function DisplayAudio() {
       description: "Seamless large-scale displays that create stunning visual impact for any environment.",
       specs: ["Ultra-narrow bezels", "4K resolution per panel", "24/7 operation rated", "Modular configuration"],
       applications: ["Control rooms", "Retail environments", "Corporate lobbies", "Event venues"],
-      image: digitalMediaJpg
+      image: videoWallsJpg
     },
     {
       type: "Large Format Displays",
       description: "Professional-grade displays designed for high-impact presentations and digital signage.",
       specs: ["55\" to 98\" screen sizes", "4K/8K resolution", "Anti-glare coating", "Portrait/landscape mounting"],
       applications: ["Conference rooms", "Classrooms", "Reception areas", "Trade shows"],
-      image: digitalMediaJpg
+      image: formatDisplaysJpg
     },
     {
       type: "Projection Systems",
       description: "High-brightness projectors delivering exceptional image quality for any venue size.",
       specs: ["Up to 30,000 lumens", "Laser light source", "360° installation", "Edge blending capable"],
       applications: ["Auditoriums", "Houses of worship", "Museums", "Outdoor events"],
-      image: digitalMediaJpg
+      image: projectionSystemsJpg
     }
   ];
 
@@ -64,21 +67,21 @@ function DisplayAudio() {
 
   const testimonials = [
     {
-      quote: "The video wall installation exceeded our expectations. The image quality is stunning and the system runs flawlessly 24/7.",
-      author: "Sarah Johnson",
-      title: "IT Director, Fortune 500 Company",
+      quote: "The conferencing equipment supplied was delivered on time and fully met the required specifications. The setup supported seamless virtual and in-room meetings with clear audio and video performance.",
+      author: "Coulson Harney",
+      title: "Bowmans LLP, IT Manager",
       rating: 5
     },
     {
-      quote: "Our auditorium's new audio system delivers crystal-clear sound to every seat. The difference is remarkable.",
-      author: "Michael Chen",
-      title: "Facilities Manager, University",
+      quote: "Proscene Systems demonstrated professionalism and reliability throughout the engagement. The equipment supplied was of high quality and performed reliably during our hybrid meetings and presentations.",
+      author: "Fidel Omondi",
+      title: "Procurement Officer, ICIPE",
       rating: 5
     },
     {
-      quote: "Professional installation, exceptional quality, and ongoing support that keeps our systems running perfectly.",
-      author: "Lisa Rodriguez",
-      title: "Operations Manager, Convention Center",
+      quote: "The team provided dependable conferencing and presentation equipment that supported our events effectively. Their responsiveness and after-sales support were commendable.",
+      author: "Avinesh Sewpal",
+      title: "Senior IT Manager, Microsoft Africa",
       rating: 5
     }
   ];

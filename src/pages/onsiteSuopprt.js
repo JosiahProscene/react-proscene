@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./Onsitesupport.css";
 import leftbottomSvg from "../components/assets/leftbottom.svg";
 import supportjpg from "../components/assets/support.jpg";
+import trainingImage from "../components/assets/hero.jpg";
+import training1Image from "../components/assets/115-Maintenace-Inspection-Types.png";
+import training2Image from "../components/assets/Mintenance.jpg";
+import training3Image from "../components/assets/service-technician-social.png";
 import { motion } from "framer-motion";
 import FAQ from "./Faq";
 import Footer from '../components/Footer';
@@ -57,32 +61,32 @@ function OnSiteSupport() {
     feature1: {
       title: "Dedicated On-Site Technician",
       description: "ProScene assigns a skilled technician to your venue or event to manage audio-visual equipment. For the corporate sector, this ensures glitch-free board meetings, while for the entertainment industry, it guarantees flawless live performances.",
-      image: "https://cdn-ilcbfhj.nitrocdn.com/YPZtsISkluZEqUPtVHEQPXBjhUZGiUtZ/assets/images/optimized/rev-5ebb0a9/recruitmilitary.com/wp-content/uploads/2024/02/AdobeStock_622368032.jpeg",
+      image: supportjpg,
     },
     feature2: {
       title: "Equipment Setup and Configuration",
       description: "ProScene customizes the setup of your AV equipment to suit your specific needs. Whether it's a university lecture hall or a music festival, our team ensures every detail is perfect for the occasion.",
-      image: "https://sc-cms-prod103-cdn-dsb5cvath4adbgd0.z01.azurefd.net/-/media/images/aerotek/business-insights/what-is-a-field-service-technician-social.png?rev=97377329b1bb4eb9883e3d7315fac0a8",
+      image: training3Image,
     },
     feature3: {
       title: "Real-Time Troubleshooting",
       description: "ProScene provides immediate issue resolution during events. From ensuring smooth virtual conferences for businesses to handling tech hitches at large-scale exhibitions, we've got you covered.",
-      image: "https://t3.ftcdn.net/jpg/04/57/11/78/360_F_457117809_CqpzPLXiHCtMkaYdPz1cdJHx0uqtF0mu.jpg",
+      image: training2Image,
     },
     feature4: {
       title: "Regular Maintenance and Testing",
       description: "ProScene performs routine system inspections to prevent disruptions. Ideal for healthcare facilities requiring reliable telemedicine setups or theaters needing consistent audio clarity..",
-      image: "https://www.fieldinsight.com/wp-content/uploads/2022/04/115-Maintenace-Inspection-Types.png",
+      image: training1Image,
     },
     feature5: {
       title: "Customized Training for Staff",
       description: "ProScene offers tailored training to empower your team. From hotel staff mastering AV setups for conferences to retail employees managing digital displays, we simplify the process.",
-      image: "https://cdn.prod.website-files.com/616225f979e8e45b97acbea0/674fc6c9391ab7c3afb8d8e4_66fac5cd2692ef5b7b9430d6_634c96a73a43d5bb56b6711d_YXOLMg-_Tuwf8X6l_bJNsjzL_hLH4MEQAC1YviS7ExUiVisPNf6wWmzVhq4bI33O4rDAaEqQe4ErZe7nWT4iMFQ4WmSDbIhgzd0YYvnFNDKxz0tt4-utvqH-nftKJqIDIIYKIq3s_L_3Edjos_6eVksQ_c9NwGIC2-MSP3yHUhDqloXogD-hiVWigA.jpeg",
+      image: "/training.avif",
     },
     feature6: {
       title: "Backup Equipment Availability",
       description: "ProScene provides on-site backup equipment to ensure uninterrupted service. This is critical for the education sector during hybrid learning sessions or for the events industry where reliability is paramount.",
-      image: "https://ipnews.com.br/wp-content/uploads/2020/06/backup.jpg",
+      image: trainingImage,
     },
   };
 
@@ -494,7 +498,7 @@ function OnSiteSupport() {
             {/* Image Column */}
             <div className="w-full h-48 sm:h-64 md:h-auto order-1 md:order-2">
               <img
-                src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fsales-rep-qualities.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.6428&fp-y=0.3549&h=415&q=88&w=622&s=2a6f11b6479804c632085126c0ecf0fc"
+                src="/support.jpg"
                 alt="Expert consultation"
                 className="w-full h-full object-cover rounded-md"
               />

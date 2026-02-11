@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
 import uccImage from "../components/assets/nera-offices-london-2-1200x847.jpg";
+import ucc1Image from "../components/assets/DSCF1456_1.jpg";
+import ucc2Image from "../components/assets/DSCF1412_1.jpg";
 import leftbottomSvg from "../components/assets/leftbottom.svg";
 import FAQ from "./Faq";
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
 import uccjpg from "../components/assets/nera-offices-london-2-1200x847.jpg";
+import ucc1jpg from "../components/assets/DSCF1441_1.jpg";
+import ucc2jpg from "../components/assets/Support1.jpg";
 import SupportMaintain from "../components/SupportMaintain";
 
 function UCC() {
@@ -30,7 +34,7 @@ function UCC() {
     feature3: {
       title: "Video Conferencing",
       description: "Transform virtual meetings with high-quality video conferencing services, improving remote work connectivity.",
-      image: "https://t3.ftcdn.net/jpg/04/57/11/78/360_F_457117809_CqpzPLXiHCtMkaYdPz1cdJHx0uqtF0mu.jpg",
+      image: ucc2Image,
     },
     feature4: {
       title: "Cloud Communication",
@@ -40,12 +44,12 @@ function UCC() {
     feature5: {
       title: "Mobile Integration",
       description: "Enable seamless communication through mobile devices, allowing your team to stay connected anytime, anywhere.",
-      image: uccImage,
+      image: ucc1Image,
     },
     feature6: {
       title: "24/7 Support",
       description: "Ensure uninterrupted communication with our round-the-clock support services for your UCC systems.",
-      image: uccImage,
+      image: ucc2jpg,
     },
   };
 
@@ -98,7 +102,7 @@ function UCC() {
                 <div className="absolute -top-4 sm:-top-8 -right-4 sm:-right-8 w-24 h-24 sm:w-40 sm:h-40 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-4 sm:-bottom-8 -left-4 sm:-left-8 w-20 h-20 sm:w-32 sm:h-32 bg-gradient-to-br from-[#b062ff] to-[#00d2fb] rounded-full opacity-25 animate-bounce"></div>
                 <img
-                  src={uccjpg}
+                  src={ucc1jpg}
                   alt="Unified Communications"
                   className="relative z-10 w-full h-auto Br shadow-2xl"
                 />
@@ -165,7 +169,7 @@ function UCC() {
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-4 sm:p-6 lg:p-8 order-1 lg:order-2">
               <img
-                src={uccImage}
+                src={ucc1jpg}
                 alt="AV IT Convergence"
                 className="w-full h-auto rounded-xl shadow-lg"
               />

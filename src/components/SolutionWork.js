@@ -19,7 +19,7 @@ function SolutionThatWorkForYou() {
           </h2>
           <p className="text-white text-sm sm:text-base md:text-lg mb-6">
             At Proscene, we craft customized solutions tailored to your business and space needs—whether
-you're streamlining communication, enhancing collaboration, or automating your environment.
+            you're streamlining communication, enhancing collaboration, or automating your environment.
           </p>
           <button
             className="bg-white hover:bg-[#16213d] text-[#f24b00] font-medium py-2 px-4 sm:py-3 sm:px-6 rounded-[15px] transition-colors duration-300"

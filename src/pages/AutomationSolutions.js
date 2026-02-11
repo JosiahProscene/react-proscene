@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import leftbottomSvg from "../components/assets/leftbottom.svg";
-import automationJpg from "../components/assets/un.jpg";
+import automationJpg from "../components/assets/brainstoming.jpg";
+import automation1Jpg from "../components/assets/Support1.jpg";
+import automation2Jpg from "../components/assets/collab-2.jpg";
+import automation3Jpg from "../components/assets/london-school-of-economics.jpg";
 import BookDemoToday from "../components/BookDemo";
 import FAQ from "./Faq";
 import Footer from "../components/Footer";
@@ -45,42 +48,42 @@ function AutomationSolutions() {
       title: "Intelligent Workflows",
       description:
         "Automate repetitive tasks with workflows designed to enhance productivity and reduce manual effort.",
-      image: automationJpg,
+      image: automation2Jpg,
     },
     feature2: {
       title: "Process Automation",
       description:
         "Optimize operations by automating critical processes, ensuring consistency and accuracy at every step.",
       image:
-        automationJpg,
+        automation2Jpg,
     },
     feature3: {
       title: "Scalable Solutions",
       description:
         "Deploy automation solutions that scale with your business, adapting to growing demands and complexities.",
       image:
-        automationJpg,
+        automation2Jpg,
     },
     feature4: {
       title: "Data Security",
       description:
         "Safeguard your data with robust security measures, ensuring compliance and peace of mind in automated environments.",
       image:
-        automationJpg,
+        automation3Jpg,
     },
     feature5: {
       title: "Custom Integrations",
       description:
         "Integrate automation tools seamlessly into your existing systems, tailored to your unique business needs.",
       image:
-        automationJpg,
+        automation3Jpg,
     },
     feature6: {
       title: "24/7 Support",
       description:
         "Our team is available around the clock to provide expert assistance and ensure uninterrupted automation.",
       image:
-        automationJpg,
+        automation1Jpg,
     },
   };
 

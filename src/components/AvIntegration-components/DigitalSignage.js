@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import leftbottomSvg from "../assets/leftbottom.svg";
-import digitalMediaJpg from "../assets/itau-private-bank-offices-bogota-6-1200x800.jpg";
+import digitalMediaJpg from "../assets/orlando-airport1-full.jpg";
+import corporateMedia from "../assets/conference-1.jpg";
+import retailMedia from "../assets/neptune-2.jpg";
+import healthcareMedia from "../assets/tru_nph-lg.jpg";
 import BookDemo from "../../pages/BookDemoPage";
 import Footer from "../Footer";
 import { useNavigate } from "react-router-dom";
@@ -46,21 +49,21 @@ function DigitalSignage() {
       title: "Professional Communication Hub",
       description: "Keep employees informed and visitors engaged with sleek, professional displays that reflect your brand excellence.",
       applications: ["Lobby Displays", "Employee Communications", "Meeting Room Booking", "Company News & Updates"],
-      image: digitalMediaJpg
+      image: corporateMedia
     },
     {
       category: "Retail & Hospitality",
       title: "Customer Experience Enhancement",
       description: "Drive sales and improve customer satisfaction with dynamic promotional content and interactive experiences.",
       applications: ["Product Promotions", "Menu Displays", "Queue Management", "Customer Feedback"],
-      image: digitalMediaJpg
+      image: retailMedia
     },
     {
       category: "Healthcare & Education",
       title: "Information & Wayfinding",
       description: "Help patients, students, and visitors navigate complex facilities while providing important information and updates.",
       applications: ["Directory Systems", "Emergency Alerts", "Appointment Information", "Campus Navigation"],
-      image: digitalMediaJpg
+      image: healthcareMedia
     }
   ];
 

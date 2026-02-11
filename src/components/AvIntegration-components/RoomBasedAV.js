@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // import leftbottomSvg from "../assets/leftbottom.svg";
-import digitalMediaJpg from "../assets/itau-private-bank-offices-bogota-6-1200x800.jpg";
+import digitalMediaJpg from "../assets/training-full.jpg";
+import specializedSpace from "../assets/Classroom1.jpg";
 import BookDemo from "../../pages/BookDemoPage";
 import Footer from "../Footer";
 import { useNavigate } from "react-router-dom";
@@ -193,7 +194,7 @@ function RoomBasedAV() {
 
               <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 p-8 lg:p-12 flex items-center justify-center">
                 <img
-                  src={digitalMediaJpg}
+                  src={specializedSpace}
                   alt={roomTypes[activeTab].title}
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />

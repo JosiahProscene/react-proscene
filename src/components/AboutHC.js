@@ -62,7 +62,7 @@ const AboutHC = () => {
                     <h2 className="text-white font-semibold
                         text-2xl sm:text-3xl md:text-4xl lg:text-5xl
                         drop-shadow-lg">
-                        Equity Afia
+                        Solutions for Hospitals & Clinics
                     </h2>
                 </div>
 

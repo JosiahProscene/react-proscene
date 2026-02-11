@@ -70,7 +70,7 @@ function CaseStudiesListPage() {
                     alt={caseStudy.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     onError={(e) => {
-                      e.target.src = "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop";
+                      e.target.src = "/DSCF1370_1.jpg";
                     }}
                   />
                   <div className="absolute top-4 left-4">

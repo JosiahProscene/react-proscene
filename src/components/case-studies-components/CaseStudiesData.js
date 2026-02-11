@@ -35,7 +35,7 @@ const caseStudies = [
       </ul>
       <p><strong>Results:</strong> The university observed a remarkable transformation in student engagement and learning outcomes. Faculty reported increased flexibility in their teaching methods, and student feedback highlighted the improved accessibility and interactivity of lessons. The new systems facilitated a smooth transition to hybrid learning, ensuring continuity and quality education for all students.</p>
     `,
-    image: 'https://via.placeholder.com/400x250/3b37e6/FFFFFF?text=Case+Study+2'
+    image: '/KFCB1.jpg'
   },
   {
     id: '3',

@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Coop from './assets/HeroCoop.jpg';
 
 const AboutCoop = () => {
     const navigate = useNavigate();
@@ -21,7 +22,7 @@ const AboutCoop = () => {
         <div className="relative group w-full h-screen bg-[#fff] flex items-center justify-center overflow-hidden">
             {/* Background Image */}
             <img
-                src="https://onediversified.com/hubfs/Hero%20Images/By%20Space/Hero%20By%20Space_Corporate%20Office_Marsh%20McLennan%20Companies.jpg"
+                src={Coop}
                 alt="Corporate Offices Background"
                 className="absolute inset-0 w-full h-full object-cover z-0"
             />
