@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../global.css";
-import homeimg from "./assets/confidential-global-tech-company-offices-penang-2-1200x751-compact.jpg";
 import { useNavigate } from "react-router-dom";
 import { BorderAllRounded } from "@mui/icons-material";
 
@@ -24,10 +23,6 @@ function DriveGrowth() {
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isAnimating, setIsAnimating] = useState(false);
-
-    const containerHeight = 300; // Set a maximum height (adjust as needed)
-
     useEffect(() => {
         const interval = setInterval(() => {
             setIsAnimating(true);
