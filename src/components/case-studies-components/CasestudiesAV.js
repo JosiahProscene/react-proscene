@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import caseStudies from './CaseStudiesData';
-// import Footer from './Footer';
+//import Footer from './Footer';
 
 // CaseStudyModal Component (Internal)
 function CaseStudyModal({ caseStudy, onClose }) {

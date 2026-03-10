@@ -56,7 +56,7 @@ function BookDemo() {
   const [showErrorModal, setShowErrorModal] = useState(false);
 
   const countries = [
-    "Kenya", "Uganda", "Tanzania", "Senegal", "Ethiopia", "Tunisia","Rwanda", "Other"
+    "Kenya", "Uganda", "Tanzania", "DRC", "Ethiopia", "Burundi","Rwanda", "Nigeria","South Sudan", "Other"
   ];
   
   const roles = [
@@ -67,6 +67,7 @@ function BookDemo() {
     "IT Director",
     "COO/CIO",
     "Consultant",
+    "Sales/Business Development",
     "Other"
   ];
 
@@ -78,6 +79,7 @@ function BookDemo() {
     "Managed Services",
     "IPTV/MATV Solutions",
     "Religious Organization AV",
+    "Microsoft Modern Work Solutions",
     "Complete AV Infrastructure"
   ];
 
@@ -208,7 +210,7 @@ function BookDemo() {
               </div>
               <h3 className="text-2xl font-bold text-[#16213d] mb-2">Success!</h3>
               <p className="text-gray-600 mb-6">
-                Your demo request has been sent successfully. Our team will get back to you within 24 hours.
+                Your request has been sent successfully. Our team will get back to you within 24 hours.
               </p>
               <button
                 onClick={() => setShowSuccessModal(false)}
@@ -236,7 +238,7 @@ function BookDemo() {
                 Something went wrong while sending your request.
               </p>
               <p className="text-sm text-gray-500 mb-6">
-                Please try again or contact us directly at info@proscene.co.ke
+                Please try again or contact us directly at Sales@proscene.co.ke or Info@proscene.co.ke.
               </p>
               <button
                 onClick={() => setShowErrorModal(false)}
@@ -322,8 +324,16 @@ function BookDemo() {
                     <svg className="w-5 h-5 text-[#f24b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <a href="mailto:info@proscene.co.ke" className="text-white hover:text-[#f24b00] transition-colors">
-                      info@proscene.co.ke
+                    <a href="mailto:Sales@proscene.co.ke" className="text-white hover:text-[#f24b00] transition-colors">
+                      Sales@proscene.co.ke
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <svg className="w-5 h-5 text-[#f24b00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <a href="mailto:Info@proscene.co.ke" className="text-white hover:text-[#f24b00] transition-colors">
+                      Info@proscene.co.ke
                     </a>
                   </div>
                   <div className="flex items-start gap-3">

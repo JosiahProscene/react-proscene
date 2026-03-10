@@ -14,7 +14,7 @@ function DigitalSignage() {
     navigate("/bookDemo");
   };
   const sendtoStudypage = () => {
-    navigate("/case-studies-av");
+    navigate("/case-studies");
   };
 
   const [activeFeature, setActiveFeature] = useState(0);

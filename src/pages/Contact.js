@@ -361,11 +361,21 @@ const HelpSection = () => {
         </div>
         <div className="flex items-center mb-2">
           <FaPhoneAlt className="mr-2 text-xl" />
-          <span className=" text-base text-gray-600">Tel: +254713761269</span>
+          <a href="tel:+254713761269" className=" text-gray-600 text-base hover:text-[#f24b00] transition-colors">
+                      +254 713 761 269
+                    </a>
         </div>
         <div className="flex items-center mb-2">
           <FaEnvelope className="mr-2 text-xl" />
-          <span className="text-gray-600 text-base">info@proscene.co.ke</span>
+          <a href="mailto:Sales@proscene.co.ke" className="text-gray-600 text-base hover:text-[#f24b00] transition-colors">
+                      Sales@proscene.co.ke
+                    </a>
+        </div>
+        <div className="flex items-center mb-2">
+          <FaEnvelope className="mr-2 text-xl" />
+          <a href="mailto:Info@proscene.co.ke" className="text-gray-600 text-base hover:text-[#f24b00] transition-colors">
+                      Info@proscene.co.ke
+                    </a>
         </div>
         {/* <a
           href="https://www.google.com/maps"

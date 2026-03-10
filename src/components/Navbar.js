@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.css"; 
 import { useMediaQuery } from "react-responsive";
 import logoHome from "./assets/logo.png";
 import solutionsimg from "./assets/adi.jpeg";

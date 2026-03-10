@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer"; 
 import LogoCarousel from "../components/LogoCarousel";
 import SectorCards from "../components/SectorCards.js";
 import './Home.css';

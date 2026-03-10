@@ -1,86 +1,158 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "../global.css";
 import { useNavigate } from "react-router-dom";
-import { BorderAllRounded } from "@mui/icons-material";
+import heroVideo from "./assets/hero-av.mp4";
 
 function DriveGrowth() {
-    const navigate = useNavigate();
 
-    const handleButtonClick = () => {
-        navigate("/bookDemo");
+    const scrollDown = () => {
+    const section = document.getElementById("next-section");
+
+    if (section) {
+        section.scrollIntoView({
+        behavior: "smooth",
+        });
+    }
     };
 
-    const swipeTexts = [
-        "Fits your business each day, everyday. Check.",
-        "Drives your growth tomorrow. Check. ",
-        // "Empower your business with cutting-edge solutions tailored to your needs.",
-    ];
+  const navigate = useNavigate();
 
-    const swipeTopics = [
-        "Transforming Spaces with Innovative Audio-Visual Solutions",
-        "Digitally Transforming How We Work, Learn and Live",
-        // "Be felt, be visible through all the seasons. Check.",
-    ];
+  const slides = [
+    {
+      title: "Transforming Spaces with Audio Visual Technology",
+      subtitle:
+        "We design, supply and integrate world-class AV and collaboration solutions for modern workplaces.",
+    },
+    {
+      title: "Digitally Transforming How Teams Work",
+      subtitle:
+        "Seamless video conferencing, smart meeting rooms and collaboration systems.",
+    },
+    {
+      title: "Smart AV Solutions for Modern Organizations",
+      subtitle:
+        "From boardrooms to command centers, we enable communication without limits.",
+    },
+  ];
 
-    const [currentIndex, setCurrentIndex] = useState(0);
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setIsAnimating(true);
-            setTimeout(() => {
-                setCurrentIndex((prevIndex) => (prevIndex + 1) % swipeTexts.length);
-                setIsAnimating(false);
-            }, 500); // Match this to the animation duration
-        }, 9000);
+  const [index, setIndex] = useState(0);
 
-        return () => clearInterval(interval);
-    }, [swipeTexts.length]);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % slides.length);
+    }, 7000);
 
-    return (
-        <div className="pb-5  maxWidthContainer" style={{paddingTop:'clamp(1.8019rem, 1.0209rem + 3.9051vw, 4.6819rem)'}}>
-            <div className="flex flex-col md:flex-row items-center justify-center p-3 bg-white min-h-40">
-                <div className="bg-[#f24b00] py-16 text-white sm:p-10 p-5 mb-10 mt-10 md:w-1/2 Br">
-                    {/* Content with fixed height and scroll for overflow */}
-                    <div
-                        className="overflow-hidden relative"
-                        style={{ maxHeight: `${containerHeight}px`, overflow: "hidden" }}
-                    >
-                        <h1
-                            className={`font-bold h1sizing mx-4 transition-transform duration-500 transform ${
-                                isAnimating ? "-translate-x-full" : "translate-x-0"
-                            }`}
-                        >
-                            {swipeTopics[currentIndex]}
-                        </h1>
-                    </div>
-                    <div
-                        className="overflow-hidden relative"
-                        style={{ maxHeight: `${containerHeight}px`, overflow: "hidden" }}
-                    >
-                        <p
-                            className={`text-center md:text-left text-lg mx-4 transition-transform duration-500 transform ${
-                                isAnimating ? "-translate-x-full" : "translate-x-0"
-                            }`}
-                            style={{ fontWeight: "300" }}
-                        >
-                            {swipeTexts[currentIndex]}
-                        </p>
-                    </div>
-                    <div className="button-Center">
-                        <button
-                            className="bg-white text-[#f24b00] mx-4 py-2 px-6 mt-5 rounded-2xl hover:bg-[#16213d] hover:text-white border border-white transition-colors duration-300"
-                            onClick={handleButtonClick}
-                        >
-                            Contact Our Team
-                        </button>
-                    </div>
-                </div>
+    return () => clearInterval(interval);
+  }, []);
 
-                <div className="relative md:w-1/2 flex items-center justify-center  md:mt-0 bg-growth lg:pl-5">
-                    <img src={homeimg} alt="home" className="rounded-[65px] shadow-lg"/>
-                </div>
-            </div>
+  return (
+    <section className="relative w-full h-[80vh] sm:h-[85vh] lg:h-screen overflow-hidden">
+
+      {/* Background Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        className="absolute w-full h-full object-cover"
+      >
+        <source src={heroVideo} type="video/mp4" />
+      </video>
+
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+
+      {/* Hero Content */}
+      <div className="relative z-10 h-full flex items-end">
+
+        <div className="pb-16 sm:pb-20 md:pb-24 lg:pb-28 
+                        px-6 sm:px-10 md:px-16 lg:px-20 
+                        max-w-6xl ml-8 text-white">
+
+          {/* Title */}
+          <h1
+            key={index}
+            className="font-bold leading-tight mb-4
+            text-3xl
+            sm:text-4xl
+            md:text-5xl
+            lg:text-6xl
+            animate-fadeIn"
+          >
+            {slides[index].title}
+          </h1>
+
+          {/* Subtitle */}
+          <p
+            key={"p" + index}
+            className="text-gray-200 mb-8 max-w-xl
+            text-sm
+            sm:text-base
+            md:text-lg
+            lg:text-xl
+            animate-fadeIn"
+          >
+            {slides[index].subtitle}
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4">
+
+            <button
+              onClick={() => navigate("/bookDemo")}
+              className="bg-[#f24b00] hover:bg-[#16213d] 
+              text-white font-semibold 
+              px-6 py-3
+              sm:px-7 sm:py-3
+              md:px-8 md:py-4
+              rounded-xl transition transform hover:scale-105"
+            >
+              Speak With An Expert
+            </button>
+
+            <button
+              onClick={() => navigate("/services")}
+              className="backdrop-blur-md bg-white/10 
+              border border-white/30 text-white
+              px-6 py-3
+              sm:px-7 sm:py-3
+              md:px-8 md:py-4
+              rounded-xl 
+              hover:bg-white hover:text-black transition"
+            >
+              Explore Solutions
+            </button>
+          </div>
         </div>
-    );
+      </div>
+
+      {/* Scroll Indicator */}
+      <button
+        onClick={scrollDown}
+        className="absolute bottom-20 right-6 md:right-10 lg:right-16 
+        bg-white/10 backdrop-blur-md border border-white/20
+        hover:bg-[#f24b00] transition
+        w-12 h-12 rounded-full flex items-center justify-center
+        animate-hoverUp"
+        >
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-6 h-6 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+        >
+            <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+            />
+        </svg>
+        </button>
+    </section>
+  );
 }
 
 export default DriveGrowth;

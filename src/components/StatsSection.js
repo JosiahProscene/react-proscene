@@ -56,7 +56,7 @@ const Stats = () => {
         <div 
           className="relative w-[450px] h-[450px] rounded-xl border-4 border-white-500 overflow-hidden"
         >
-          <iframe width="916" height="515" src="https://www.youtube.com/embed/Txv2PRYQA6Q" title="5 Must Have Interactive Display In 2025" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe width="450" height="450" src="https://www.youtube-nocookie.com/embed/ErBsPANTpqM?si=LTSZlDgEEBTWNwrj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
       </div>
