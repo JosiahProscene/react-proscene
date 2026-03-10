@@ -1,49 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../global.css";
 import { useNavigate } from "react-router-dom";
-import heroVideo from "./assets/hero-av.mp4";
+import heroVideo from "./assets/hero-av2.mp4";
 
 function DriveGrowth() {
 
-    const scrollDown = () => {
+  const navigate = useNavigate();
+
+  const scrollDown = () => {
     const section = document.getElementById("next-section");
 
     if (section) {
-        section.scrollIntoView({
+      section.scrollIntoView({
         behavior: "smooth",
-        });
+      });
     }
-    };
-
-  const navigate = useNavigate();
-
-  const slides = [
-    {
-      title: "Transforming Spaces with Audio Visual Technology",
-      subtitle:
-        "We design, supply and integrate world-class AV and collaboration solutions for modern workplaces.",
-    },
-    {
-      title: "Digitally Transforming How Teams Work",
-      subtitle:
-        "Seamless video conferencing, smart meeting rooms and collaboration systems.",
-    },
-    {
-      title: "Smart AV Solutions for Modern Organizations",
-      subtitle:
-        "From boardrooms to command centers, we enable communication without limits.",
-    },
-  ];
-
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % slides.length);
-    }, 7000);
-
-    return () => clearInterval(interval);
-  }, []);
+  };
 
   return (
     <section className="relative w-full h-[80vh] sm:h-[85vh] lg:h-screen overflow-hidden">
@@ -55,7 +27,7 @@ function DriveGrowth() {
         loop
         playsInline
         preload="metadata"
-        className="absolute w-full h-full object-cover"
+        className="absolute w-full h-full object-cover brightness-110"
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
@@ -69,32 +41,6 @@ function DriveGrowth() {
         <div className="pb-16 sm:pb-20 md:pb-24 lg:pb-28 
                         px-6 sm:px-10 md:px-16 lg:px-20 
                         max-w-6xl ml-8 text-white">
-
-          {/* Title */}
-          <h1
-            key={index}
-            className="font-bold leading-tight mb-4
-            text-3xl
-            sm:text-4xl
-            md:text-5xl
-            lg:text-6xl
-            animate-fadeIn"
-          >
-            {slides[index].title}
-          </h1>
-
-          {/* Subtitle */}
-          <p
-            key={"p" + index}
-            className="text-gray-200 mb-8 max-w-xl
-            text-sm
-            sm:text-base
-            md:text-lg
-            lg:text-xl
-            animate-fadeIn"
-          >
-            {slides[index].subtitle}
-          </p>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
@@ -123,6 +69,7 @@ function DriveGrowth() {
             >
               Explore Solutions
             </button>
+
           </div>
         </div>
       </div>
@@ -135,22 +82,23 @@ function DriveGrowth() {
         hover:bg-[#f24b00] transition
         w-12 h-12 rounded-full flex items-center justify-center
         animate-hoverUp"
-        >
+      >
         <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-6 h-6 text-white"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
         >
-            <path
+          <path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
             d="M19 9l-7 7-7-7"
-            />
+          />
         </svg>
-        </button>
+      </button>
+
     </section>
   );
 }

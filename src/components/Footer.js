@@ -92,7 +92,7 @@ const Footer = () => {
                             <a href="https://x.com/AudioVisualEA" target="_blank" rel="noopener noreferrer" className="social-icon">
                                 <FaSquareXTwitter />
                             </a>
-                            <a href="http://www.linkedin.com/in/proscene-systems-ltd-4658a515a" target="_blank" rel="noopener noreferrer" className="social-icon">
+                            <a href="https://www.linkedin.com/company/proscene-systems-limited/" target="_blank" rel="noopener noreferrer" className="social-icon">
                                 <FaLinkedin />
                             </a>
                             <a href="https://www.instagram.com/proscenesystems/?__pwa=1#" target="_blank" rel="noopener noreferrer" className="social-icon">
